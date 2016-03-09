@@ -1,0 +1,45 @@
+    1  git  help
+    2  git config --global user.name "hkotha"
+    3  git config --global user.enail hkotha@my.okcu.edu
+    4  mkdir myFirst
+    5  ls
+    6  cd myFirst
+    7  pwd
+    8  vim hello.c
+    9  ls
+   10  git init
+   11  ls
+   12  ls -al
+   13  cd .git/
+   14  ls
+   15  cd ..
+   16  ls
+   17  git add .
+   18  ls
+   19  git status
+   20  git commit
+   21  git status
+   22  vim hello.c
+   23  git status
+   24  git commit
+   25  git add .
+   26  git commit
+   27  git log
+   28  history|tail
+   29  git log
+   30  git log
+   31  git push
+   32  history|tail
+   33  git push
+   34  git push -u origin master
+   35  git push -u myFirst master
+   36  git remote add hkotha https://github.com/harshith121/hkotha.git
+   37  git push -u hkotha
+   38  git push
+   39  git remote add hkotha https://github.com/harshith121/hkotha.git
+   40  git push hkotha
+   41  git push hkotha
+   42  git push -u origin master
+   43  git remote add origin https://github.com/harshith121/hkotha.git
+   44  git push -u origin master
+   45  history>myHistory
